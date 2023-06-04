@@ -27,8 +27,8 @@ permalink: /talks/
 {% bibliography --query @incollection[keywords ^= invited] %}
 </div>
 
-<div class="jumbotron">
+<!-- <div class="jumbotron">
 ### Regular talks
 {% bibliography --query @incollection[keywords != invited] %}
-</div>
+</div> -->
 

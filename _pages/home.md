@@ -5,15 +5,35 @@ sitemap: false
 permalink: /
 ---
 
-### Welcome!
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
-It also helps us to understand the fundamental principles that govern the behavior of matter and energy, and to explore the limits of our current knowledge.
-Theoretical physics helps us to make progress in a wide range of fields, including cosmology, particle physics, and quantum mechanics, and it has led to many important discoveries and technological innovations.
+### About me
 
-<div class="container">
+<p style="text-align:justify">I'm a Lecturer (Assistant Professor) at
+            the <a href="https://www.liverpool.ac.uk/computer-science/" target="_blank">Department
+              of Computer Science in the University of Liverpool (UoL)</a>,
+            United Kingdom. I am a part of the Natural Language Processing group
+            at UoL. Prior to joining UoL, I worked with <a href="https://www.research.manchester.ac.uk/portal/sophia.ananiadou.html"
+              target="_blank">Prof.
+              Sophia Ananiadou</a>, as a postdoctoral researcher at the National
+            Centre for Text Mining (NaCTeM), University of Manchester, UK. I
+            earned my Ph.D. in 2021 from <a href="https://www.iitp.ac.in/" target="_blank">Indian
+              Institute of Technology Patna, India (IITP)</a>. My Ph.D.
+            supervisors were <a href="https://www.iitp.ac.in/%7Esriparna/" target="_blank">Dr.
+              Sriparna Saha</a> and <a href="https://www.cse.iitb.ac.in/%7Epb/"
+              target="_blank">
+              Prof. Pushpak Bhattacharyya.</a></p>
+
+<p style="text-align:justify">My research focuses on developing end to
+            end dialogue systems in multi-lingual and multi-modal framework.
+            Independent target is set on addressing all the primary modules of
+            Dialogue System which includes Natural Language Understanding,
+            Dialogue Management Strategy and Natural Language Generation using
+            Deep Learning and Reinforcement Learning. Several aspects of human
+            behavior such as emotion and sentiment are incorporated to make the
+            Virtual Assistant efficient. Investigations have also been extended
+            to analyse the content on social media platform such as Twitter.</p>
+
+<!-- <div class="container">
 <div class="row">
 <center>
 <img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" width="100%"/><br/>
@@ -22,12 +42,7 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 </center>
 </div>
 </div>
-<br/>
+<br/> -->
 
-### About me
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now the California Institute of Technology.
 

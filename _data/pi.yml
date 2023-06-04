@@ -1,22 +1,24 @@
-- name: Dr. Richard Feynman
-  photo: headshot.jpg
-  info: Richard C. Tolman Professor, California Institute of Technology
-  email: richard@university.edu
-  github: https://github.com/
-  researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
+- name: Dr. Tulika Saha
+  photo: profile.jpg
+  info: Tulika Saha Lecturer, University of Liverpool
+  email: tulika.saha@liverpool.ac.uk
+  linkedin: https://www.linkedin.com/in/tulika-saha-2547a4187/
+  github: https://github.com/sahatulika15/
+  researchgate: https://www.researchgate.net/profile/Tulika-Saha-2
+  scholar: https://scholar.google.com/citations?user=_GJugiIAAAAJ&hl=en&authuser=5
   cv: cv/cv.pdf
   # Change the number below to the number of "educations" you have (up to 6)
-  number_educ: 2
-  education1: "(1942) Ph.D. Physics, Princeton University"
-  education2: "(1939) B.S. Physics, Massachusetts Institute of Technology"
-  # education3: 
-  # education4: 
+  number_educ: 3
+  education1: "(2022) Post-doctoral Research Associate in Dialogue Systems and Health Analysis, National Centre for Text Mining (NaCTeM), University of
+Manchester, UK"
+  education2: "(2021) Ph.D. Computer Science, Indian Institute of Technology Patna, India"
+  education3: "(2016) M.Tech. Software Engineering, National Institute of Technology Durgapur, India"
+  # education4: "(2014) B.Tech. Computer Science & Engineering, WBUT, India"
   # education5: 
   # education6: 
-  education1short: (1942) Ph.D. Physics, Princeton
-  education2short: (1939) B.S. Physics, MIT
-  # education3short: 
-  # education4short: 
+  education1short: (2022) Post-doctoral Research Associate, University of Manchester, UK
+  education2short: (2021) Ph.D. Computer Science, IIT
+  education3short: (2016) M.Tech. Software Engineering, NIT
+  # education4short: (2014) B.Tech. Computer Science, WBUT
   # education5short: 
   # education6short: 

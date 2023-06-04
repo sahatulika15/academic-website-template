@@ -17,7 +17,8 @@ permalink: /about/
   <h3>{{ member.name }}</h3>
   <h4><i>{{ member.info }}</i></h4>
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
-  {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %}
+  {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a> {% endif %}
+  <!-- {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %} -->
   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> {% endif %}
   {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> {% endif %}
   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %}
@@ -62,7 +63,7 @@ permalink: /about/
 </div>
 {% endfor %}
 
-{% if site.data.grants %}
+<!-- {% if site.data.grants %}
 <div class="jumbotron">
 ### Grants
 <ul>
@@ -71,14 +72,36 @@ permalink: /about/
 {% endfor %}
 </ul>
 </div>
-{% endif %}
+{% endif %} -->
 
 {% if site.data.awards %}
 <div class="jumbotron">
-### Awards
+### Awards & Recognitions
 <ul>
 {% for award in site.data.awards %}
  <li> {{ award.name | replace: "-","&#8211;"}} </li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+{% if site.data.organizer %}
+<div class="jumbotron">
+### Workshops & Conferences Organizer
+<ul>
+{% for org in site.data.organizer %}
+ <li> {{ org.name }} </li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+{% if site.data.reviewer %}
+<div class="jumbotron">
+### Reviewer
+<ul>
+{% for rev in site.data.reviewer %}
+ <li> {{ rev.name }} </li>
 {% endfor %}
 </ul>
 </div>
@@ -95,9 +118,9 @@ permalink: /about/
 </div>
 {% endif %}
 
-<div class="jumbotron">
+<!-- <div class="jumbotron">
   <h4>Sponsors</h4>
   <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
  {% for funder in site.data.funders %}<a href="{{ funder.url }}" target="_blank"><img src='{{ site.url }}{{ site.baseurl }}/images/{{ funder.image }}' style='max-height: 80px; max-width: 200px; margin: 1%'/></a>{% endfor %}
   </div>
-</div>
+</div> -->
