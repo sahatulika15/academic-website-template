@@ -2,8 +2,8 @@
 title: Tulika Saha
 email: tulika.saha@liverpool.ac.uk
 description: Academic webpage of Dr. Tulika Saha
-baseurl: ""
-url: ""
+# baseurl: ""
+# url: ""
 
 # Google analytics ID: Uncomment and your own, if you like
 # google_analytics: XX
